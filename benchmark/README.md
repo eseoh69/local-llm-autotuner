@@ -1,1 +1,1 @@
-Offline benchmarking harness — runs the task battery against candidate models and records latency/cost.
+Benchmarking harness — runs a local LLM against a fixed workload across candidate configurations (quantization, batch size, context length, threads) and records tokens/sec (prefill and decode separately) and peak memory.
