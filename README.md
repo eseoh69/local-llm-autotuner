@@ -1,2 +1,1 @@
-# Model-autotuner
-Agentic LLM router that benchmarks models on speed and cost, then routes requests to the best performer — no live LLM call in the routing path.
+Agent-guided autotuner for local LLM inference — searches runtime configurations (quantization, batching, context length, threading) for speed and memory targets, using measured evidence instead of blind trial-and-error.
